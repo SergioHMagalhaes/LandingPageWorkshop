@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2B2C2C;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #2B2C2C;
+    text-align: center;
+    color: #FEB633;
+}
+.title{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.section1{
+    width: 97vw;
+    height: 70vh;
+    color: #fff;
+    padding: 20px;
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 300px;
+    padding: 25px;
+    margin-right: 12.5%;
+    float: right;
+}
+
+h2{
+    font-size: 34px;
+    font-family: "Oswald", sans-serif;
+
+}
+#description{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin-top: 25px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    background-color: #feb73302;
+    outline:none;
+    border: 1px solid #FEB633;
+    color: #ffffff;
+}
+
+#INSCREVA-SE{
+
+    margin-top: 10px;
+}
+
+.section2{
+    margin: 0;
+    padding: 0;
+}
+
+.picture{
+    width: 421px;
+    margin-top: 50px;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.about{
+    color: #ffffff;
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: top;
+    margin-left: 14%;
+    margin-top: 8%;
+    
+}
+
+.about p{
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-family: Arial,sans-serif;
+}
+
+.about h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+.line{
+    display: block;
+    width: 27px;
+    height: 5px;
+    margin-bottom: 8px;
+    background-color: #FEB633;
+}
+
+footer{
+    padding: 20px;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+#link{
+    text-decoration: none;
+    color: #FEB633;
+}
+
+#link:visited{
+    color: #FEB633;
+}
+
+@media screen and (max-width: 1050px){
+    .picture{
+        width: 300px;
+    } 
+    .section1{
+        background-image: url('../img/capa2.jpg');
+    }
+
+    .section1{
+        width: 94vw;
+    }
+}
+
+@media screen and (max-width: 759px){
+
+    .title{
+        font-size: 13.5px;
+    }
+
+    .section1{
+        background-image: url('../img/capa3.jpg');
+        width: 89vw;
+        height: 80vh;
+        
+    }
+
+    .formContainer{
+        max-width: 300px;
+        padding: 10px;
+        margin-right: 5%;
+    }
+    h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    #description{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    input{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .picture{
+        width: 50%;
+        margin-top: 0px;
+        margin-left:25%;
+    } 
+
+    .about{
+        display: block;
+        max-width: 70%;
+    }
+
+    .about h3{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .about p{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    footer p{
+        font-size: 15px; 
+    }
+    footer{
+        padding: 10px;
+    }
+}
